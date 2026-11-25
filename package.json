@@ -1,0 +1,28 @@
+{
+  "name": "safwan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "mixitup": "^3.3.2",
+    "next": "16.2.3",
+    "react": "19.2.4",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "swiper": "^12.1.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "tailwindcss": "^4"
+  }
+}
